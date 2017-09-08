@@ -1,1 +1,6 @@
 language: java
+before_install:
+  - gem install package_cloud
+
+script:
+    - package_cloud push raoul-imolczek/github/ /home/travis/.m2/repository/sample/jsf-flow-portlet/0.0.1-SNAPSHOT/jsf-flow-portlet-0.0.1-SNAPSHOT.war
