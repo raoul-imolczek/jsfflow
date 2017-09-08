@@ -8,7 +8,7 @@
 		<h1>Flow A</h1>
 		<h2>Foo: #{flowABean.foo}</h2>
 		<h:form>
-			<h:commandButton action="flowB" value="Enter flow B">
+			<h:commandButton action="callFlowB" value="Enter flow B">
 				<f:ajax execute="@form" />
 			</h:commandButton>
 		</h:form>

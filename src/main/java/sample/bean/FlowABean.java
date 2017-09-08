@@ -14,6 +14,9 @@ import com.liferay.faces.util.logging.LoggerFactory;
 @FlowScoped("flowA")
 public class FlowABean implements Serializable {
 
+    // serialVersionUID
+    private static final long serialVersionUID = 1240852859531077077L;
+    
     protected static final Logger logger = LoggerFactory.getLogger(FlowABean.class);
     
     private String foo;

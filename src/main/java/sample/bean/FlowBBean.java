@@ -1,5 +1,7 @@
 package sample.bean;
 
+import java.io.Serializable;
+
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.faces.flow.FlowScoped;

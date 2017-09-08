@@ -60,6 +60,8 @@
 		<dependency>
 			<groupId>javax.enterprise</groupId>
 			<artifactId>cdi-api</artifactId>
+			<version>1.2</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>javax.el</groupId>
@@ -70,6 +72,8 @@
 		<dependency>
 			<groupId>javax.annotation</groupId>
 			<artifactId>javax.annotation-api</artifactId>
+			<version>1.2</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>javax.portlet</groupId>
