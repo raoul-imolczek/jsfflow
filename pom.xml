@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>sample</groupId>
   <artifactId>jsf-flow-portlet</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2</version>
   <name>Sample JSF flow portlet</name>
   <description>Sample JSF flow portlet</description>
   <packaging>war</packaging>

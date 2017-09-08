@@ -2,7 +2,7 @@ language: java
 deploy:
   provider: releases
   api_key: GITHUB_TOKEN
-  file: /home/travis/.m2/repository/sample/jsf-flow-portlet/0.0.1-SNAPSHOT/jsf-flow-portlet-0.0.1-SNAPSHOT.war
+  file: /home/travis/.m2/repository/sample/jsf-flow-portlet/0.0.2/jsf-flow-portlet-0.0.2.war
   skip_cleanup: true
   on:
     tags: true
